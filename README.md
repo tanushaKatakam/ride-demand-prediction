@@ -1,4 +1,4 @@
-<img width="1412" height="543" alt="image" src="https://github.com/user-attachments/assets/1768018d-7070-4afe-a4ed-925cf612c158" /># Ride Demand Prediction and Analysis Dashboard
+# Ride Demand Prediction and Analysis Dashboard
 Developed a ride demand forecasting system using Random Forest and Prophet, incorporating time-based features and lag variables, and built a Tableau dashboard to analyze demand patterns and forecast future trends.
 
 1. PROJECT OVERVIEW
@@ -64,13 +64,17 @@ Random Forest performed better because it captured non-linear relationships and 
 
 6. TABLEAU DASHBOARD
 
-<img width="1263" height="855" alt="image" src="https://github.com/user-attachments/assets/68bf1913-e342-4a1c-a8e7-dba4af58597c" />
+<img width="2072" height="1582" alt="Ride Demand by Hour of Day" src="https://github.com/user-attachments/assets/ff7e0fa1-6541-4115-bb9e-8d8c87fa36de" />
 
-<img width="775" height="855" alt="image" src="https://github.com/user-attachments/assets/a738ecd8-718e-406e-a4c4-72c92a8b3a93" />
 
-<img width="534" height="855" alt="image" src="https://github.com/user-attachments/assets/fc0eba57-865e-4708-98a1-79b172babc58" />
+<img width="1488" height="1582" alt="Ride Demand by Day of Week" src="https://github.com/user-attachments/assets/abab71ae-2091-49db-a978-b6283b31ed69" />
 
-<img width="1422" height="855" alt="image" src="https://github.com/user-attachments/assets/7cc3bf36-fb3d-4e18-819e-7884ab5129a3" />
+
+<img width="1316" height="1616" alt="Ride Demand by Weather Condition" src="https://github.com/user-attachments/assets/ef829280-b5a2-4e83-84e9-116fb0e0d1f8" />
+
+
+<img width="2092" height="1506" alt="Impact of Temperature on Ride Demand" src="https://github.com/user-attachments/assets/579a28af-acca-44fc-8e1f-1eef462d2961" />
+
 
 <img width="2400" height="2000" alt="Ride Deamnd Prediction Dashboard" src="https://github.com/user-attachments/assets/6f5b877f-4e00-422e-9713-496476bfd7fe" />
 
