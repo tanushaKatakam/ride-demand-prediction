@@ -6,7 +6,9 @@ Developed a ride demand forecasting system using Random Forest and Prophet, inco
 This project analyzes and predicts bike ride demand using:
 
 -Time series forecasting (Prophet)
+
 -Machine learning (Random Forest)
+
 -Interactive visualization (Tableau Dashboard)
 
 Goal:
@@ -18,22 +20,31 @@ To understand demand patterns and compare predictive model performance.
 The dataset contains:
 
 datetime → timestamp
+
 season, yr, mnth, hr → time-based features
+
 temp, atemp, hum, windspeed → weather data
+
 holiday, workingday, weekday → categorical features
+
 count → target variable (ride demand)
 
 3. DATA PREPROCESSING
 
 Feature Engineering
+
 -Extract useful time patterns
+
 -Helps ML models understand seasonality
 
 Lag Feature
+
 -Uses previous demand to predict current demand
+
 -Captures temporal dependency
 
 Handling Missing Values
+
 -Required because lag creates null values
 
 4. MODEL
@@ -41,19 +52,24 @@ Handling Missing Values
 Model 1 : Random Forest
 
 -Handles non-linear relationships
+
 -Works well with mixed features
+
 -Robust to noise
 
 
 Model 2 : Prophet
 
 -Built for time series
+
 -Handles seasonality automatically
+
 -Good baseline model
 
 5. MODEL COMPARISON
 
 Compared Actual Predictions vs Random Forest Predictions vs Prophet Predictions.
+
 Visualized using Line Chart(Tableau)
 
 <img width="1056" height="725" alt="image" src="https://github.com/user-attachments/assets/e8334f7d-4a0e-4d20-8403-8b08b472f5c3" />
@@ -83,23 +99,33 @@ Random Forest performed better because it captured non-linear relationships and 
 
 Key Findings:
 -Peak demand occurs at 5 PM, indicating commute usage
+
 -Clear weather significantly increases demand
+
 -Demand increases with temperature
+
 -Random Forest captures variability better than Prophet
 
 8. TOOLS & TECHNOLOGIES
    
 -Python (Pandas, NumPy)
+
 -Scikit-learn (Random Forest)
+
 -Prophet (Time Series Forecasting)
+
 -Tableau (Dashboard Visualization)
 
 9. FINAL PROJECT
 
 This project demonstrates:
 
-*Time series forecasting
-*Machine learning modeling
-*Feature engineering
-*Data visualization
-*Business insight extraction
+-Time series forecasting
+
+-Machine learning modeling
+
+-Feature engineering
+
+-Data visualization
+
+-Business insight extraction
