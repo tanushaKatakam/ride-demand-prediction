@@ -13,7 +13,7 @@ This project analyzes and predicts bike ride demand using:
 
 ---
 
-Goal:
+# Goal:
 
 To understand demand patterns and compare predictive model performance.
 
